@@ -1,2 +1,8 @@
 # log4go
-a simple log tool for golang
+
+Go 版的日志工库
+
+设计特点:
+
+* 支持日志缓存，提高写入效率
+
