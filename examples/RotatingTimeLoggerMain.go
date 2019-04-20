@@ -1,12 +1,12 @@
-package main
+package main // import "github.com/HappyRoad/log4go"
 
 import (
-	"log4go"
-	"time"
+	"github.com/HappyRoad/log4go"
 	"os"
+	"time"
 )
 
-func main(){
+func main() {
 	l, err := log4go.NewRotatingTimeLogger("./log", ".log", log4go.ByDay)
 	if err != nil {
 		log4go.Error(err.Error())
